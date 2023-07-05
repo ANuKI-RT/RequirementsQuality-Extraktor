@@ -38,6 +38,15 @@ def getReqsFromText(text):
     """
         Splits a given text in single requirements statements.
         The function is optimized for the MPY-SPB-SRS-0001 document.
+
+        Text characteristics:
+            - First string on each page: "MPY-VM SRS $pageNumber MPY-SPB-SRS- 001 $version $date
+            - Req ID syntax = $subsystemID $reqCategoryID $sequentialNumber
+            - A req is indicated with the ID, somethimes with OBCP codes, than verification char
+            - After that two or three data points, the requirements text is following.
+            - The req statement is one sentence, often ending with an enumeration.
+            - Sometimes, a comment is following. Often starting with "Note", but not each time.
+            - Empty chapters have only NA as content.
     """
 
     print(text)
