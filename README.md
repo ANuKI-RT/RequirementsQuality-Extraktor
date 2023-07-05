@@ -21,7 +21,7 @@ source env/bin/activate
 
 Install the needed libaries using pip, e.g.
 ```cmd
-pip install -r dependencies.txt
+pip install -r requirements.txt
 ```
 
 ## Run the application
