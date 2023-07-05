@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ## Run the application
 Configure the function calls, select the input and run
 ```cmd
-python main.py
+python3 main.py
 ```
 
 
