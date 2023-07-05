@@ -1,0 +1,12 @@
+μPython,MicroPython
+OBAP,On-Board Application Procedure
+OBCP,On-Board Control Procedure
+OBOP,On-Board Operations Procedure
+OBSW,On-Board Software
+RTEMS,Real-Time Executive for Multiprocessor Systems
+SDE,Software Development Environment
+SDB,Satellite Database
+SRS,Software Requirement Specification
+TBD,To Be Defined
+TBW,To Be Written
+VM,Virtual Machine
