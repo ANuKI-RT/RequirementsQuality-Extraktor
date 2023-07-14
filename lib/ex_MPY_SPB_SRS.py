@@ -33,7 +33,6 @@ def getTextFromPDF(path_to_doc):
 
     return output
 
-
 #___________________________________________________________________________________________________
 def getReqsFromText(text):
     """
@@ -53,9 +52,12 @@ def getReqsFromText(text):
     cleaned_text = text.replace("Python 3.4.", "Python 3.4")
     cleaned_text = cleaned_text.replace("MPY-SPB-SRS- 001", "")
     cleaned_text = cleaned_text.replace("1.1 - 30/11/2017", "")
+
     chapter_list = re.split("(3[.][0-9]+[.])", cleaned_text)
     del chapter_list[:3] #remove general information in chapter 3.1   
     del chapter_list[::2] #remove every chapter number in the list
+
+    final_req_list = []
 
     for c in chapter_list:
         req_list = re.split("MPVM\s-[A-Z]+-[0-9]+", c)
@@ -63,6 +65,8 @@ def getReqsFromText(text):
         
         for req in req_list:
             cleaned_req = re.sub("OBCP-[0-9a-z]+,", "", req)
+            cleaned_req = re.sub("MPVM-FC[0-9a-z]+,", "", req)
+            cleaned_req = re.sub("MPVM-FC-", "", req)
             cleaned_req = re.sub("REQ-VM-[0-9a-z]+,", "", cleaned_req)
             cleaned_req = re.sub("REQ-VM[0-9a-z]+,", "", cleaned_req)
             cleaned_req = re.sub("REQ-VM[0-9]+", "", cleaned_req)
@@ -70,6 +74,7 @@ def getReqsFromText(text):
             cleaned_req = re.sub("OBCP-", "", cleaned_req)
             cleaned_req = re.sub("OBCP", "", cleaned_req)
             cleaned_req = re.sub("[0-9][0-9][0-9][a-z],", "", cleaned_req)
+            cleaned_req = re.sub("[0-9][0-9][0-9],", "", cleaned_req)
             cleaned_req = re.sub("[0-9]+[a-z]", "", cleaned_req)
             cleaned_req = re.sub("\s[0-9]\s", "", cleaned_req)
             cleaned_req = re.sub("\s[TRAI]\s", "", cleaned_req)
@@ -80,19 +85,47 @@ def getReqsFromText(text):
             cleaned_req = re.sub("-[0-9]", "", cleaned_req)
             cleaned_req = re.sub("\s[0-9],", "", cleaned_req)
             cleaned_req = re.sub("MPY-VSR", "", cleaned_req)
-            cleaned_req = re.sub("REQ-E00", "", cleaned_req)
-            cleaned_req = re.sub("REQ-E-", "", cleaned_req)
-            cleaned_req = re.sub("REQ-VM30", "", cleaned_req)
-            print("***********************************************")
-            print(cleaned_req)
-            input()
-        print(len(req_list))
-        break
+            cleaned_req = re.sub("REQ-", "", cleaned_req)
+            cleaned_req = re.sub("VM[0-9]+", "", cleaned_req)
+            cleaned_req = re.sub("E[0-9]+", "", cleaned_req)
+
+            final_req_list.append(cleaned_req)
+
+    print(str(len(final_req_list)) + " requirements extracted.")
+
+    return final_req_list
     
 #___________________________________________________________________________________________________
-def extract(path_to_doc):
+def resolveAcronyms(req_list, path_to_acronyms):
+    """
+        Load acronyms for specific requirement document from given path.
+        Replace every abbrevation with the full text in the requirements list.
+    
+        Note: if an acronym is not listed in the abbrevation list of the requirements document,
+        than the acronym is not resolved (e.g. RAM).
+    """
+
+    if path_to_acronyms == "":
+        return req_list
+
+    acronyms = open(path_to_acronyms, "r").read()
+    acronym_list = acronyms.split("\n")
+
+    for a in acronym_list:
+        a_list = a.split(",")
+
+        for i, req in enumerate(req_list):
+            if a_list[0] in req:
+                req_list[i] = re.sub(a_list[0], a_list[1], req)
+                print(req_list[i])
+
+    return req_list
+
+#___________________________________________________________________________________________________
+def extract(path_to_doc, path_to_acronyms=""):
 
     text = getTextFromPDF(path_to_doc)
     reqs = getReqsFromText(text)
+    full_reqs = resolveAcronyms(reqs, path_to_acronyms)
 
     print("Success")
