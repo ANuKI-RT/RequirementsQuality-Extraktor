@@ -30,4 +30,6 @@ Configure the function calls, select the input and run
 python3 main.py
 ```
 
+## Important notes
+Select a function of the lib for a respective requirement document in the main.py program for executing the extraction. Due to overlaps between requirements statements and comments or complex formatting, manual cleaning of the resulting data file in the output folder could be necessary.
 
