@@ -117,9 +117,29 @@ def resolveAcronyms(req_list, path_to_acronyms):
         for i, req in enumerate(req_list):
             if a_list[0] in req:
                 req_list[i] = re.sub(a_list[0], a_list[1], req)
-                print(req_list[i])
 
     return req_list
+
+#___________________________________________________________________________________________________
+def saveRequirements(req_list, path_to_doc):
+    """
+        Save the extracted and cleaned requirements in one text document.
+        Therefore, the given path from the input folder is changed to the output folder.
+
+        Note: because of complex formatting issues, requirement statement are not splitted
+        from their comments. This nneds to be done manually.
+    """
+
+    output_path = re.sub("input", "output", path_to_doc)
+    output_path = re.sub("pdf", "txt", output_path)
+    
+    with open(output_path, "w") as f:
+        for r in req_list:
+            f.write(re.sub("\n","",r))
+            f.write("\n")
+    
+        f.close()
+    
 
 #___________________________________________________________________________________________________
 def extract(path_to_doc, path_to_acronyms=""):
@@ -127,5 +147,6 @@ def extract(path_to_doc, path_to_acronyms=""):
     text = getTextFromPDF(path_to_doc)
     reqs = getReqsFromText(text)
     full_reqs = resolveAcronyms(reqs, path_to_acronyms)
+    saveRequirements(full_reqs, path_to_doc)   
 
     print("Success")
