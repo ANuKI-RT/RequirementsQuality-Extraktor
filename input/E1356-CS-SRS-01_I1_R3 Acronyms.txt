@@ -1,0 +1,16 @@
+BL,Basic mathematical Library
+BLTS,Basic mathematical Library Test Suite
+CI,Configuration Item
+CIs,Configuration Item
+CIL,Configuration Item List
+ECSS,European Cooperation for Space Standardization
+FSW,Flight Software
+GNC,Guidance Navigation and Control
+HW,Hardware
+NGMP,Next Generation Micro Processor
+RTEMS,Real-Time Executive for Multiprocessor Systems
+SoW,Statement of Work
+SVF,Software Verification Facility
+SW,Software
+TSE,Test Suite Executable
+WCET,Worst Case Execution Time
