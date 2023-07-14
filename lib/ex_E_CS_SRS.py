@@ -1,17 +1,16 @@
 """
     Extract requirements statements from the E1356-CS-SRS-01-I1-R3 and resolve acronyms.
 
-    The requirements statements in the document are not precise. 
+    The requirements statements in the document are mostly precise. 
         - In tabular representation
-        - With many enumerations
-        - With comments in iraltic
         - With unique identifiers
-        - With source code snipets
+        - There are deleted requirements with ID but only "DELETED" text.
 
-    There are empty categories with no requirements (i.e. chapters with no information).
+    Some sub chapters, containing requirements of a specific category, have introduction text.
+    Some sub chapters are empty (i.e. "NA") or contain a reference to another chapter.
 
     OUTPUT FORMAT:
-    ReqStatement[SEP]Comment[END]
+    ReqStatement[END]
 
 """
 
