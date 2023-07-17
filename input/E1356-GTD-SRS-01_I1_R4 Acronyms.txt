@@ -1,0 +1,27 @@
+AOCS,Attitude and Orbit Control System
+BL,Basic mathematical Library
+DAZ,Denormals are Zero
+ECSS,European Cooperation for Space Standardization
+ESA,European Space Agency
+FES,Functional Engineering Simulator
+FMA,Fused Multiply-Add
+FPU,Floating Point Unit
+FSW,Flight Software
+FTZ,Flush to Zero
+GCC,GNU C Compiler
+GNC,Guidance Navigation and Control
+MLFS,Mathematical Library for Flight Software
+NaN,Not a Number
+OBSW,On-Board Software
+OS,Operating System
+RTEMS,Real-Time Executive for Multiprocessor Systems
+S/C,Spacecraft
+SDD,Software Design Document
+SoW,Statement of Work
+SRS,Software Requirements Specication
+SUM,Software User Manual
+SVF,Software Validation Facility
+SVS,Software Validation Specication
+TS,Technical Specication
+ULP,Unit in the Last Place
+WCET,Worst Case Execution Time
