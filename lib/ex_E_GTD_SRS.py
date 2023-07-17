@@ -49,8 +49,7 @@ def getReqsFromText(text):
     cleaned_text = re.sub("Identifier", "", cleaned_text)
     cleaned_text = re.sub("Issue 1.4 Date 2018-04-30", "", cleaned_text)
     cleaned_text = re.sub("Page[0-9]+of[0-9]+", "", cleaned_text)
-    chapter_list = re.split("5\.[0-9]+\.?[0-9][0-9]?", cleaned_text)
-    del chapter_list[:2] #remove general information and chapter 4.4
+    chapter_list = re.split("5\.[0-9]+\.?[0-9]+?", cleaned_text)
     
     final_req_list = []
 
