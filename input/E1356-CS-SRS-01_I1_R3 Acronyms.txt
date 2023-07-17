@@ -1,8 +1,8 @@
-BL,Basic mathematical Library
 BLTS,Basic mathematical Library Test Suite
-CI,Configuration Item
+BL,Basic mathematical Library
 CIs,Configuration Item
 CIL,Configuration Item List
+CI,Configuration Item
 ECSS,European Cooperation for Space Standardization
 FSW,Flight Software
 GNC,Guidance Navigation and Control

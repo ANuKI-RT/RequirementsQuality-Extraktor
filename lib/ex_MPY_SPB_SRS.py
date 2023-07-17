@@ -127,7 +127,7 @@ def saveRequirements(req_list, path_to_doc):
         Therefore, the given path from the input folder is changed to the output folder.
 
         Note: because of complex formatting issues, requirement statement are not splitted
-        from their comments. This nneds to be done manually.
+        from their comments. This needs to be done manually.
     """
 
     output_path = re.sub("input", "output", path_to_doc)
