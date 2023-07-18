@@ -1,0 +1,13 @@
+API,Application Programming Interface
+EARS,Easy Approach to Requirements Syntax
+EDF,Earliest Deadline First
+Futex,Fast User-Space Locking
+GCC,GNU Complier Collection
+MrsP,Multiprocessor Resource-Sharing Protocol
+OMIP,O(m) Independence-Preserving Protocol
+OpenMP,Open Multi-Processing
+POSIX,Portable Operating System Interface
+QDP,Qualification Data Package
+RTEMS,Real-Time Executive for Multiprocessor Systems
+SMP,Symmetric Multiprocessing
+TLS,Thread-Local Storage
