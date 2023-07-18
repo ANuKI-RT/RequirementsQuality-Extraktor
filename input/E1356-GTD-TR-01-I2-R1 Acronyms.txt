@@ -1,0 +1,35 @@
+AOCS,Attitude and Orbit Control System
+BCC,Bare-C Cross Compilation System
+BLAS,Basic Linear Algebra Sub-programs
+BLTS,Basic mathematical Library Test Suite
+BL,Basic mathematical Library
+ECSS,European Cooperation for Space Standardization
+ESA,European Space Agency
+FDLIBM,Freely Distributable Math Library
+FES,Functional Engineering Simulator
+FMA,Fused Multiply-Add
+FPU,Floating Point Unit
+FVB,Functional Validation Bench
+GCC,GNU C Compiler
+GDB,GNU Debugger
+GNC,Guidance Navigation and Control
+HW,Hardware
+LAPACK,Linear Algebra Pack
+LSI,Large System Integrator
+MC/DC,Multiple Condition Decision Coverage
+MISRA,Motor Industry Software Reliability Asociation
+MKL,Intel Math Kernel Library
+MTG,Meteosat Third Generation
+NaN,Not a Number
+OBC,On-Board Computer
+OBSW,On-Board Software
+OS,Operating System
+POSIX,Portable Operating System Interface
+RTEMS,Real-Time Executive for Multiprocessor Systems
+S/C,Spacecraft
+SoW,Statement of Work
+SPARC,Scalable Processor Architecture
+SVF,Software Validation Facility
+SW,Software
+ULP,Unit in the Last Place
+WCET,Worst Case Execution Time
