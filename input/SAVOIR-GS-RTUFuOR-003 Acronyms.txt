@@ -1,0 +1,63 @@
+AIT,Assembly Integration and Test
+AOCS,Attitude and Orbit Control System
+ASW,Application Software
+AU,Authentication Unit
+BAT,Bandwidth Allocation Table
+BDM,Bi-level Discrete Monitor
+BIT,Built-In Test
+BRM,Boot Report Memory
+BSM,Bilevel Switch Monitor
+BSP,Board Support Package
+CADU,Channel Access Data Unit
+CAN,Controller Area Network
+CLCW,Command Link Control Word
+CLTU,Command Link Transfer Unit
+CPDU,Command Pulse Distribution Unit
+ECSS,European Cooperation for Space Standards
+EEPROM,Electrically Erasable Programmable Read-Only Memory
+EGSE,Electrical Ground Support Equipment
+FAR,Frame Acceptance Report
+FCG,Fault Containment Group
+FDIR,Fault Detection Isolation and Recovery
+GEO,Geostationary Orbit
+GNSS,Global Navigation Satellite System
+HDSW,Hardware Driver Software
+HPC,High-Power Command
+HPTM,High Priority Telemetry
+HV-HPC,High Voltage High-Power Command
+IO,Input Output
+LEO,Low Earth Orbit
+MAP,Multiplex Access Point
+MFLOPS,Million Floating Point Operations Per Second
+MIPS,Million Instructions Per Second
+OBC,On-Board Computer
+NRZ-L,Non-Return to Zero Level
+NRZ-M,Non-Return to Zero Mark
+NRZ,Non-Return to Zero
+OBT,On-Board Time
+OCXO,Oven-Controlled Crystal Oscillator
+P/L,PayLoad
+PFDS,PlatForm Data Storage
+PIO,Programmable Input Output
+PM,Processor Module
+PPS,Pulse Per Second
+PROM,Programmable Read-Only Memory
+PSK,Phase Shift Keying
+PUS,Packet Utilisation Standard
+RF,Radio Frequency
+RM,Reconfiguration Module
+RTU,Remote Terminal Unit
+S/C,SpaceCraft
+SAG,SAVOIR Advisory Group
+SAVOIR,Space Avionics Open Interface Architecture
+SCID,Spacecraft Identity
+SDI,Serial Digital Interface
+SDRAM,Synchronous Dynamic Random Access Memory
+SEFI,Single Event Functional Interrupt
+SEL,Single Event Latch-up
+SEU,Single Event Upset
+SGM,SafeGuard Memory
+SP-L,Split Phase Level
+TC,Telecommand
+TM,Telemetry
+VC,Virtual Channel

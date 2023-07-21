@@ -1,0 +1,47 @@
+AOCS,Attitude and Orbit Control System
+APID,Application Identifier
+API,Application Programming Interface
+BAS,Block Access Service
+BAU,Block Allocable Unit
+CFDP,CCSDS File Delivery Protocol
+CCSDS,Consultative Committee for Space Data Systems
+CDMU,Central Data Management Unit
+DMS,Data Management System
+DSS,Data Storage Service
+ECSS,European Cooperation for Space Standardization
+EEPROM,Electrically Erasable Programmable Read-Only Memory
+EOL,End Of Life
+ESA,European Space Agency
+FDIR,Fault Detection Isolation and Recovery
+FIT,Failure in Time
+FMSIS,File Management Services interface standardisation
+FMS,File Management System
+FPSS,File and Packet Store Services
+FTS,File Transfer Service
+MTL,Mission Time Line
+OBCP,On-Board Control Procedure
+OBC,On-Board Computer
+OBSW,On-Board Software
+OBT,On-Board Time
+OIRD,Operation Interface Requirements Document
+PDU,Protocol Data Unit
+PFDS,PlatForm Data Storage
+PLDS,PayLoad Data Storage
+PMS,Packet Management Service
+PUS,Packet Utilisation Standard
+RAM,Random Access Memory
+RMAP,Remote Memory Access Protocol
+SAG,SAVOIR Advisory Group
+SAU,Smallest Allocable Unit
+SAVOIR,Space AVionics Open Interface aRchitecture
+SEFI,Single-Event Functional Interrupt
+SEL,Single-Event Latchup
+SET,Single-Event Transient
+SEU,Single Event Upset
+SGDS,SafeGuard Data Storage
+SGM,SafeGuard Memory
+SSMM,Solid State Mass Memory
+TBC,To Be Confirmed
+TBD,To Be Defined
+TBW,To Be Written
+UBER,Uncorrectable Bit Error Rate

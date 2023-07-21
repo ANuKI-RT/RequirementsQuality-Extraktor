@@ -1,0 +1,54 @@
+AD,Applicable Document
+AOCS,Attitude and Orbit Control Systems
+API,Application Programme Interface
+BSP,Board Support Package
+CBSE,Component Based Software Engineering
+CCSDS,Consultative Committee for Space Data Systems
+CDAS,Command & Data Acquisition Services
+COrDeT,Component Oriented Development Techniques
+CPU,Central Processing Unit
+CSW,Central Software
+DOMENG,Domain Engineering
+ECSS,European Cooperation for Space Standardization
+ESA,European Space Agency
+EP,Execution Platform
+FDIR,Fault Detection, Isolation and Recovery
+FIFO,First in First Out
+FPU,Floating Point Unit
+FSW,Flight Software
+HW,Hardware
+HAL,Hardware Abstraction Layer
+IMA-SP,Integrated Modular Avionics for Space
+IMA,Integrated Modular Avionics
+IPC,Inter-Partition Communication
+M&C,Monitoring and Control
+MBSE,Model Based Software Engineering
+OBCP,Onboard Control Procedure
+OBC,On Board Computer
+OBAP,Onboard Application Procedure
+OBOP,Onboard Operation Procedure
+OBT,On Board Time
+OBSM,OBSW Maintenance
+OBSW,Onboard Software
+OS,Operating System
+OSI,Open Systems Interconnection
+OSRA,On board Software Reference Architecture
+P/F,Platform
+PIM,Platform Independent Model
+PK,Partitioning Kernel
+P/L,Payload
+PSM,Platform Specific Model
+PUS,Packet Utilisation Standard
+RTK,Real-Time Kernel
+RTOS,Real-Time Operating System
+SAVOIR-FAIRE,SAVOIR Fair Architecture and Interface Reference Elaboration
+SAVOIR-IMA,SAVOIR Integrated Modular Avionics
+SAVOIR,Space Avionics Open Interface aRchitecture
+SCM,Software Component Model
+SEP,System Executive Platform
+SW,Software
+TC,Telecommand
+TM,Telemetry
+TSAL,Time and Space Abstraction Layer
+TSP,Time and Space Partitioning
+WG,Working Group

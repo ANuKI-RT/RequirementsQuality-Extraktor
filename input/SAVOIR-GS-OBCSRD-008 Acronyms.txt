@@ -1,0 +1,25 @@
+AOCS,Attitude and Orbit Control System
+APID,Application Identifier
+API,Application Programming Interface
+CFDP,CCSDS File Delivery Protocol
+CCSDS,Consultative Committee for Space Data Systems
+ECSS,European Cooperation for Space Standardization
+ESA,European Space Agency
+FDIR,Fault Detection Isolation and Recovery
+FMSIS,File Management Services interface standardisation
+OBC,On-Board Computer
+OBSW,On-Board Software
+OCS,On-board Communication System
+PDU,Protocol Data Unit
+PFDS,PlatForm Data Storage
+PLDS,PayLoad Data Storage
+QoS,Quality of Service
+RMAP,Remote Memory Access Protocol
+SAG,SAVOIR Advisory Group
+SAU,Smallest Allocable Unit
+SAVOIR,Space Avionics Open Interface aRchitecture
+SDU,Service Data Unit
+TBC,To Be Confirmed
+TBD,To Be Defined
+TBW,To Be Written
+UBER,Uncorrectable Bit Error Rate

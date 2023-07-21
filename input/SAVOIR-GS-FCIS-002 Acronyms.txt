@@ -1,0 +1,39 @@
+AIT,Assembly Integration and Test
+AOCS,Attitude and Orbit Control System
+ASW,Application Software
+BSP,Board Support Package
+BIT,Built-In Test
+CAN,Control Area Network
+CPU,Central Processing Unit
+CRC,Cyclic Redundancy Check
+CSW,Central Software
+EDAC,Error Detection And Correction
+EEPROM,Electrically Erasable Programmable Read-Only Memory
+EGSE,Electrical Ground Support Equipment
+FDIR,Fault Detection Isolation and Recovery
+FPU,Floating Point Unit
+FSW,Flight Software
+HPC-1,High Priority Command executed by HW without SW involvement
+HPC,High Priority Command
+HPTM,High Priority Telemetry
+HW,Hardware
+I/O,Input/Output
+MMU,Memory Management Unit
+OBC,On-Board Computer
+OS,Operating System
+PLM,Payload Computer
+PM,Processor Module
+PROM,Programmable Read-Only Memory
+RAM,Random Access Memory
+RM,Reconfiguration Module
+RMAP,Remote Memory Access Protocol
+SDE,Software Development Environment
+SGM,Safeguard Memory
+SPARC,Scalable Processor Architecture
+SpW,Spacewire
+SW,Software
+TC,Telecommand
+TM,Telemetry
+TTC,Telemetry Tracking and Commanding
+UART,Universal Asynchronous Receiver-Transmitter
+WCET,Worst Case Execution Time
