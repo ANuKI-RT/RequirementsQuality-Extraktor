@@ -6,7 +6,7 @@ from lib import ex_RTEMS_SRS
 from lib import ex_RTEMS_ICD
 from lib import ex_SAVOIR_GS
 from lib import ex_SAVOIR_GS_DSSnIRD
-#from lib import ex_SAVOIR_GS_EPFS
+from lib import ex_SAVOIR_GS_EPFS
 #from lib import ex_SAVOIR_GS_FCIS
 #from lib import ex_SAVOIR_GS_OBCSRD
 #from lib import ex_SAVOIR_GS_RTUFuOR
