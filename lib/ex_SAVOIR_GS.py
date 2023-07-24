@@ -130,7 +130,12 @@ def saveRequirements(req_list, path_to_doc):
 
     with open(output_path, "w") as f:
         for r in req_list:
-            f.write(re.sub("\n","",r))
+            
+            cleaned_req = re.sub("\n","",r)
+            try:
+                f.write(cleaned_req[re.search("[a-z][A-Z]", cleaned_req).end() - 1:])
+            except:
+                f.write(cleaned_req)
             f.write("\n")
 
         f.close()
