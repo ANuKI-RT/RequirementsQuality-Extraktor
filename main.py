@@ -9,7 +9,7 @@ from lib import ex_SAVOIR_GS_DSSnIRD
 from lib import ex_SAVOIR_GS_EPFS
 from lib import ex_SAVOIR_GS_FCIS
 from lib import ex_SAVOIR_GS_OBCSRD
-#from lib import ex_SAVOIR_GS_RTUFuOR
+from lib import ex_SAVOIR_GS_RTUFuOR
 
 def main ():
 
