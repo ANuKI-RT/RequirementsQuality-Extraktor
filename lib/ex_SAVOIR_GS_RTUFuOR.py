@@ -70,7 +70,7 @@ def getReqsFromText(text):
                     if not cleaned_req.isspace():
                         if "Requirement deleted" not in cleaned_req:
                             final_req_list.append(cleaned_req + "[END]")
-    
+
     print(str(len(final_req_list)) + " requirements extracted.")
     return final_req_list
 
@@ -116,12 +116,7 @@ def saveRequirements(req_list, path_to_doc):
 
     with open(output_path, "w") as f:
         for r in req_list:
-            
-            cleaned_req = re.sub("\n","",r)
-            try:
-                f.write(cleaned_req[re.search("[a-z][A-Z]", cleaned_req).end() - 1:])
-            except:
-                f.write(cleaned_req)
+            f.write(re.sub("\n","",r))
             f.write("\n")
 
         f.close()
